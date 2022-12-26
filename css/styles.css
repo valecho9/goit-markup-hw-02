@@ -1,12 +1,29 @@
+
 body { font-family: Roboto;
     border-color:#F5F5F5;
 }
 .logo{font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1,2;
-   
+   color:#2196F3;
     
     }
-     /*color : var (--accent color);*/
+     
+ .site-nav-current {
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.1;
+       color: #212121;}
+.site-nav{font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    color: #212121;}
+    .site-nav-current:hover,
+    .site-nav-current:focus{
+        color: #2196F3;}
+        
+    
