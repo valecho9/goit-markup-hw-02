@@ -1,6 +1,9 @@
 
 body { font-family: Roboto;
     border-color:#F5F5F5;
+    :root {--brand-color:#212121;
+    --text-color:  #2196F3;
+--main-text-color:#757575;}
 }
 .logo{font-family: 'Raleway';
     font-weight: 700;
@@ -24,6 +27,11 @@ body { font-family: Roboto;
     color: #212121;}
     .site-nav-current:hover,
     .site-nav-current:focus{
-        color: #2196F3;}
-        
-    
+        color:var(--text-color);}
+.nav-link{color:var(--brand-color);}
+
+.nav-link:hover,
+.nav-link:focus{
+    color: var(--text-color);
+   
+    }
