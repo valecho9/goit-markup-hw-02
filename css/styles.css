@@ -1,6 +1,8 @@
 :root {--primary-text-color:#212121;
     --text-color:#2196F3;
 --main-text-color:#757575;
+
+
 }
 body { font-family: Roboto;
     border-color:#F5F5F5;}
@@ -27,11 +29,23 @@ body { font-family: Roboto;
     color: var(--primary-text-color);}
     .site-nav-current:hover,
     .site-nav-current:focus{
-        color: var(--text-color);}
+        color: var(--primary-text-color);}
 .nav-link{color: var(--text-color);}
 
 .nav-link:hover,
 .nav-link:focus{
-    color: var(--text-color);
-   
+    color: var(--primary-text-color);
     }
+.contact-link{color: var(--main-text-color);}
+/*hero*/
+
+.hero-title{color: #ffffff;}
+
+/*section*/
+
+.section-title{color: #2F303A;
+    }
+.button-link{color: #FFFFFF;}
+/*feature*/
+.feature-list-title{color: #212121;}
+.feature-list-text{color: #757575;}
