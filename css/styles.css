@@ -1,10 +1,10 @@
-
-body { font-family: Roboto;
-    border-color:#F5F5F5;
-    :root {--brand-color:#212121;
-    --text-color:  #2196F3;
---main-text-color:#757575;}
+:root {--primary-text-color:#212121;
+    --text-color:#2196F3;
+--main-text-color:#757575;
 }
+body { font-family: Roboto;
+    border-color:#F5F5F5;}
+
 .logo{font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
@@ -13,22 +13,22 @@ body { font-family: Roboto;
     
     }
      
- .site-nav-current {
+ .site-nav-current {color: var(--text-color);
         font-family: 'Roboto';
         font-weight: 500;
         font-size: 14px;
         line-height: 1.1;
-       color: #212121;}
+        }
 .site-nav{font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1;
-    color: #212121;}
+    color: var(--primary-text-color);}
     .site-nav-current:hover,
     .site-nav-current:focus{
-        color:var(--text-color);}
-.nav-link{color:var(--brand-color);}
+        color: var(--text-color);}
+.nav-link{color: var(--text-color);}
 
 .nav-link:hover,
 .nav-link:focus{
