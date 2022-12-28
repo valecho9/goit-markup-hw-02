@@ -2,8 +2,6 @@
     --text-color:#2196F3;
 --main-text-color:#757575;
 --accent-color:#ffffff;
-
-
 }
 body { font-family: Roboto, sans serif;
    }
@@ -12,7 +10,7 @@ body { font-family: Roboto, sans serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1,2;
-   color:#2196F3;
+   color:var(--text-color);
     
     }
      
@@ -46,7 +44,19 @@ body { font-family: Roboto, sans serif;
 
 .section-title{color: #2F303A;
     }
-.button-link{color:var(--accent-color);}
-/*feature*/
+
+/*h3*/
 .feature-list-title{color: var(--primary-text-color);}
-.feature-list-text{color: var(--main-text-color);}
+.text{color: var(--main-text-color);}
+
+/*button*/
+.btn{color: var(--primary-text-color),;}
+.btn{cursor: pointer;}
+.btn-primary{color: var(--accent-color); 
+.btn-primary{cursor: pointer;}
+background-color: var(--text-color);}
+.btn-primary:hover,
+.btn-primary:focus{color: var(--primary-text-color);}
+/*h2*/
+.caption{color: var(--primary-text-color);}
+.tagline{color: var(--main-text-color);} 
