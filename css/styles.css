@@ -1,11 +1,12 @@
 :root {--primary-text-color:#212121;
     --text-color:#2196F3;
 --main-text-color:#757575;
+--accent-color:#ffffff;
 
 
 }
-body { font-family: Roboto;
-    border-color:#F5F5F5;}
+body { font-family: Roboto, sans serif;
+   }
 
 .logo{font-family: 'Raleway';
     font-weight: 700;
@@ -39,13 +40,13 @@ body { font-family: Roboto;
 .contact-link{color: var(--main-text-color);}
 /*hero*/
 
-.hero-title{color: #ffffff;}
+.hero-title{color:var(--accent-color);}
 
 /*section*/
 
 .section-title{color: #2F303A;
     }
-.button-link{color: #FFFFFF;}
+.button-link{color:var(--accent-color);}
 /*feature*/
-.feature-list-title{color: #212121;}
-.feature-list-text{color: #757575;}
+.feature-list-title{color: var(--primary-text-color);}
+.feature-list-text{color: var(--main-text-color);}
