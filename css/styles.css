@@ -8,13 +8,14 @@ body {
   font-family: Roboto, sans serif;
 }
 
-.logo {
+.logo-link {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1, 2;
   color: var(--text-color);
 }
+.logo-heder {color: var(--primary-text-color);}
 
 .site-nav-current {
   color: var(--text-color);
@@ -69,23 +70,18 @@ body {
 /*button*/
 .btn {
   color: var(--primary-text-color);
-}
-.btn {
   cursor: pointer;
 }
-.btn-primary {
-  color: var(--accent-color);
-}
-.btn-primary {
+
+
+
+.btn-primary {color: var(--accent-color);
+  background-color: color var(--text-color);
   cursor: pointer;
 }
-background-color {
-  color: var(--text-color);
-}
-.btn-primary:hover,
-.btn-primary:focus {
-  color: var(--primary-text-color);
-}
+
+
+
 /*h2*/
 .caption {
   color: var(--primary-text-color);
@@ -93,3 +89,6 @@ background-color {
 .tagline {
   color: var(--main-text-color);
 }
+/*footer*/
+
+.footer-contact {color:rgba(255,255,255,0.6);}
