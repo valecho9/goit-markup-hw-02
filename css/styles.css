@@ -6,16 +6,23 @@
 }
 body {
   font-family: Roboto, sans-serif;
+  background-color: #f5f5f5;
 }
 /*heder*/
 .logo-link {
-  font-family: "Raleway",sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   color: var(--text-color);
+  text-decoration: none;
 }
-.logo-heder {color: var(--primary-text-color);}
+.logo-heder {
+  color: var(--primary-text-color);
+}
+.list {
+  list-style: none;
+}
 
 .site-nav-current {
   color: var(--primary-text-color);
@@ -23,53 +30,50 @@ body {
   font-size: 14px;
   line-height: 1.1;
 }
-.site-nav {color: var(--primary-text-color);
-  font-family: 'Roboto';
-font-weight: 500;
-font-size: 14px;
-line-height: 1,1;
-
-
+.site-nav {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  text-decoration: none;
 }
 .site-nav:hover,
-.site-nav:focus{color: var(--accent-color);
-background-color: var(--text-color);}
+.site-nav:focus {
+  color: var(--accent-color);
+  background-color: var(--text-color);
+}
 .site-nav-current:hover,
 .site-nav-current:focus {
   color: var(--text-color);
 }
 .nav-link {
-color: var(--main-text-color);
-font-family: Roboto;
-font-style: Medium;
-font-size:14px;
-line-height:1,1;
+  color: var(--main-text-color);
+  font-style: Medium;
+  font-size: 14px;
+  line-height: 1.1;
+  text-decoration: none;
 }
 .nav-link:hover,
 .nav-link:focus {
   color: var(--text-color);
 }
-
 /*hero*/
-
 .hero-title {
-color: var(--accent-color);
-font-family: Roboto;
-font-size:44px;
-line-height:1.4;
-text-align:Center;
+  color: var(--accent-color);
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: Center;
 }
-
 /*section*/
-
 .section-title {
   color: #2f303a;
 }
-
+.section-works {
+  background-color: #f5f4fa;
+}
 /*h3*/
 .feature-list-title {
   color: var(--primary-text-color);
-  font-family: Roboto
   font-style: 700;
   font-size: 14px;
   line-height: 1.1;
@@ -77,35 +81,46 @@ text-align:Center;
 .text {
   color: var(--main-text-color);
 }
-
 /*button*/
 .btn-primary {
   color: var(--accent-color);
   background-color: var(--text-color);
   cursor: pointer;
-  font-family: Roboto
-  font-style:700;
+  font-style: 700;
   font-size: 16px;
-  line-height: 1.8; 
+  line-height: 1.8;
 }
-
-.btn {color: var(--primary-text-color);
+.btn {
+  color: var(--primary-text-color);
   cursor: pointer;
-  font-family: Roboto;
- font-style: Medium;
- font-size: 16px;
- line-height: 1.6;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 1.6;
 }
 .btn:hover,
-.btn:focus {color: var(--accent-color);
-  background-color:  var(--text-color);}
+.btn:focus {
+  color: var(--accent-color);
+  background-color: var(--text-color);
+}
 /*h2*/
 .caption {
   color: var(--primary-text-color);
+  font-style: 700;
+  font-size: 18px;
+  line-height: 2;
+  
 }
 .tagline {
   color: var(--main-text-color);
+  font-size: 16px;
+  line-height: 1.8;
+  
 }
 /*footer*/
-
-.footer-contact {color:rgba(255,255,255,0.6);}
+.contact {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.71;
+}
+.contact:hover,
+.contact:focus {color: var(--text-color);}
