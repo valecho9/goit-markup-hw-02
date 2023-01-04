@@ -19,6 +19,9 @@ body {
 .logo-heder {
   color: var(--primary-text-color);
 }
+.logo-footer {
+  color: var(--accent-color);
+}
 .list {
   list-style: none;
 }
@@ -67,6 +70,7 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
+  text-transform: uppercase;
 }
 /*section*/
 .section-title {
@@ -94,7 +98,7 @@ body {
 }
 .text {
   color: var(--main-text-color);
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
 }
@@ -141,6 +145,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  text-decoration: none;
 }
 .contact:hover,
 .contact:focus {
@@ -154,6 +159,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  text-decoration: none;
 }
 .subtitle {
   text-decoration: none;
